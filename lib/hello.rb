@@ -1,9 +1,9 @@
 def hello_t(array)
-  array.each do |name|
-   puts yield
-  end #end do 
-  return array
-end
+  i=0 
+  while i< array.length
+  i = i+1
+  end #end while 
+end #end hello_t()
 
 # call your method here!
 
